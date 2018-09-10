@@ -12,3 +12,10 @@ task upper {
         println "Upper case: " + someString.toUpperCase()
     }
 }
+
+
+task fred {
+    doLast {
+        println 'Hello Fred'
+    }
+}
