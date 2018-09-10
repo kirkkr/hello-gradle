@@ -4,6 +4,7 @@ task hello {
     }
 }
 
+
 task upper {
     doLast {
         String someString = 'mY_nAmE'
